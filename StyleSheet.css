@@ -1,0 +1,37 @@
+body {
+    background-color: #f4f4f4;
+    color:
+
+font: normal 14px sans-serif, Ariel, Helvetica;
+    /* ^^^Quicker way to say what is says below
+    font-family: Ariel, sans-serif, Helvetica;
+    font-size: 14px;
+    font-weight: normal;
+    */
+
+line-height: 1.2em;
+margin:0
+}
+
+.Container{
+        width: 500px;       /*I don't like how this looks right now, just implemented it for the #learning*/
+        margin:auto;
+
+}
+
+.Introduction{
+        background-color: #333333;
+        color: #ffffff;
+        text-align: center;
+}
+
+.Work{
+
+        text-align: center;
+}
+
+.Contact{
+
+        text-align: center;
+
+}

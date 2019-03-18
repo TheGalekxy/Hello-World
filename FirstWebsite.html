@@ -3,24 +3,35 @@
 <html>
   <head>
     <title> My First Website! </title> <!--- This Becomes "Adam Galek" when I turn this website into a website about me --->
+    <link rel="stylesheet" type="text/css" href="C:\Users\Adam\Documents\GitHub\Hello-World\StyleSheet.css">
   </head>
   <body>
-    <h1 style="text-align:center"> Adam Galek </h1>
-    <img src="C:\Users\Adam\Website Resources\Photos to use on website/AdamGalek.jpg" alt="A picture of Adam Galek" style="display: block; margin-left: auto; margin-right: auto;"/> <!--- Using some CSS here that I googled because I couldn't figure out how to center the image I had. Something to look into for the future; I don't have enough time today. --->
-    <h4 style="text-align:center"> Aspiring Front End Developer </h4>
-    <h2 style="text-align:center"> Introduction </h2>
-      <p style="text-align:center"> Hi, I'm Adam!               <!--- Right now I am using "text-align:center" for everything, I am positive there is a better way to do this. Likely have to group up the whole section of text I wrote, then style them all as a group. Would be way more efficient...I'll get there. Maybe CSS will help with this. --->
-      This is the beginning of my journey into programming and Github! <br>
-      My goal is to become a Front-End Web Developer by my next birthday (March 2020) and I won't stop at anything until I make that dream a reality! <br>
-      The road is going to be a tough one, I predict many long days of work and research to make this a reality.<br>
-      Since my goal is to become a Front-End Web Developer (For now) I have decided to focus on a few programming languages that are necessary for this role.<br>
-      These languages include; Html, Css, Javascript, and Sql so expect to see code in those languages being uploaded to my Github.
-      </p>
-
-    <h2 style="text-align:center"> My Work </h2>      <!---ultimately I'd like the "My Work" header to have a hyperlink to a location on the page...but I need work to dispal XD --->
-
-    <h2 style="text-align:center"><a href="mailto:adamgalek94@gmail.com"> Contact Me </a></h2>   <!---Would also like the contact me header to link to somewhere else. Maybe I'll put in my email for now... --->
-
+    <div class="Container">
+      <div class="Introduction">
+        <h1> Adam Galek </h1> <!-- the css is not working for the h1 element right now, need to figure out why....maybe I should put all the styling for "body" -->
+        <img src="C:\Users\Adam\Website Resources\Photos to use on website/AdamGalek.jpg" alt="A picture of Adam Galek"/>
+        <h4> Aspiring Front End Developer </h4>
+        <h2> Introduction </h2>
+          <p> Hi, I'm Adam!
+            This is the beginning of my journey into programming and Github! <br>
+            My goal is to become a Front-End Web Developer by my next birthday (March 2020) and I won't stop at anything until I make that dream a reality! <br>
+            The road is going to be a tough one, I predict many long days of work and research to make this a reality.<br>
+            Since my goal is to become a Front-End Web Developer (For now) I have decided to focus on a few programming languages that are necessary for this role.<br>
+            These languages include; Html, Css, Javascript, and Sql so expect to see code in those languages being uploaded to my Github.
+        </p>
+      </div>
+  <hr>
+      <div class="Work">
+        <h2> My Work </h2>      <!---ultimately I'd like the "My Work" header to have a hyperlink to a location on the page...but I need work to display XD --->
+      </div>
+  <hr>
+      <div class="Contact">
+        <h2><a href="mailto:adamgalek94@gmail.com"> Contact Me </a></h2>   <!---Would also like the contact me header to link to somewhere else. Maybe I'll put in my email for now... --->
+    </div>
+  </div>
   </body>
 
 </html>
+
+
+<!---Noticed there is a lag rendering the photo which gives a glimpse of the text, wonder if this can be fixed or if it's just because the resources are internal. --->
