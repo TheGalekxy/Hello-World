@@ -13,25 +13,23 @@ line-height: 1.2em;
 margin:0
 }
 
-.Container{
-        width: 500px;       /*I don't like how this looks right now, just implemented it for the #learning*/
-        margin:auto;
-
+:root {
+  text-align: center;
 }
 
 .Introduction{
-        background-color: #333333;
-        color: #ffffff;
+        background-color: ;
+        color: ;
         text-align: center;
 }
 
 .Work{
 
-        text-align: center;
+
 }
 
 .Contact{
 
-        text-align: center;
+
 
 }
