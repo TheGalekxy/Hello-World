@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> CSS Grids </title>
+    <style> 
+        .wrapper{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            */
+            grid-gap: 1em
+        }
+
+        .wrapper > div {
+            background: #eeeeee;
+            padding: 1em;
+        }
+
+        .wrapper > div:nth-child(odd) {
+            background: #dddddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo pariatur aut? Quia velit facere quidem porro ratione esse possimus tempora ipsam. Perferendis consequatur totam mollitia sunt, maxime sit enim.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis iste quas alias nihil est tempora itaque, repellat ut earum animi accusantium magnam dolores labore dolorem delectus at aliquid rem! Dolorum?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellat minus aut, aperiam, molestias necessitatibus nisi eos totam, reprehenderit deleniti voluptatem et exercitationem illum quo quaerat! Fuga nam nisi sapiente?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo pariatur aut? Quia velit facere quidem porro ratione esse possimus tempora ipsam. Perferendis consequatur totam mollitia sunt, maxime sit enim.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis iste quas alias nihil est tempora itaque, repellat ut earum animi accusantium magnam dolores labore dolorem delectus at aliquid rem! Dolorum?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellat minus aut, aperiam, molestias necessitatibus nisi eos totam, reprehenderit deleniti voluptatem et exercitationem illum quo quaerat! Fuga nam nisi sapiente?
+        </div>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime quo pariatur aut? Quia velit facere quidem porro ratione esse possimus tempora ipsam. Perferendis consequatur totam mollitia sunt, maxime sit enim.
+        </div>
+        <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis iste quas alias nihil est tempora itaque, repellat ut earum animi accusantium magnam dolores labore dolorem delectus at aliquid rem! Dolorum?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit repellat minus aut, aperiam, molestias necessitatibus nisi eos totam, reprehenderit deleniti voluptatem et exercitationem illum quo quaerat! Fuga nam nisi sapiente?
+        </div>
+    </div>
+</body>
+</html>
