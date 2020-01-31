@@ -1,0 +1,22 @@
+.button {
+    background-color: #e7e7e7; color: black;
+    border: 5px;
+    padding: 20px 20px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 8px;
+    height: 50%;
+    width: 75%;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    height: 250px;
+    border: 10px solid yellow;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    justify-content: center; /* Centers the Buttons into the middle of the container */
+}
